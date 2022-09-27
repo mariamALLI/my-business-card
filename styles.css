@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+}
+
+.avatar {
+    width: 240px;
+    border-radius: 30px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 3rem;
+    /* display: block; */
+    /* justify-content: space-around; */
+    text-align: center;
+    background: #8d99ae;
+    color: #2b2839;
+    border-radius: 30px; 
+    border-bottom: 15px solid #d8cefe;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.text {
+    margin-top: 1rem;
+    color: #d8cefe;
+}
+
+.icons {
+    display: flex;
+    margin-left: 17rem;
+    margin-top: -3rem;
+}
+
+.icn {
+    width: 50px;
+    margin-left: 1rem;
+}
+
+.icn:hover {
+    cursor: pointer;
+}
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
